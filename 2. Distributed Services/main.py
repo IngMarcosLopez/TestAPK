@@ -16,9 +16,9 @@ class MyGrid(Widget):
     def btn(self):
         print("Name: ", self.name.text, "Last Name: ",
               self.last_name.text, "Email: ", self.email.text)
-        self.name.text=''
-        self.last_name.text=''
-        self.email.text=''
+        self.name.text = ''
+        self.last_name.text = ''
+        self.email.text = ''
 
 
 class MyApp(App):
